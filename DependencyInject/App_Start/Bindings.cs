@@ -11,6 +11,8 @@ namespace DependencyInject.App_Start
         public static void RegisterServices()
         {
             var builder = new ContainerBuilder();
+
+            var container = builder.Build();
         }
     }
 }
